@@ -6,6 +6,7 @@ import { useAuth } from '../context/AuthContext'
 const MODUL_BASLIK = {
   cizelge: '📅 Şube seç',
   puantaj: '🗂️ Şube seç',
+  mesai: '⏱️ Şube seç',
 }
 
 export default function SubeSecimi({ modul = 'cizelge' }) {

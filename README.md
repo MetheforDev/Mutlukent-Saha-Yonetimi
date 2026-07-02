@@ -70,9 +70,12 @@ sorumlular değişebilir — sistem bunu birinci sınıf bir durum olarak modell
 - Şube sorumlusu dahil tüm personeli kapsar
 - Kişi başı aylık toplamlar + muhasebeye gönderilecek WhatsApp özet metni
 
-### ⏱️ Mesai — *Faz 3, planlanıyor*
+### ⏱️ Mesai — *Faz 3, tamamlandı*
 
-Günlük fazla çalışma (+saat) kaydı, aylık özet, muhasebe çıktısı.
+- Aylık grid: personel × gün, hücreye tıkla → saat gir → Enter / blur ile kaydet
+- Yarım saat desteği (örn. 1.5, 2.5)
+- Kişi başı ve günlük toplam satırı/sütunu
+- Ay toplamı göstergesi + muhasebeye WhatsApp mesai özeti
 
 ### 🏢 Merkez Panel — *Faz 4, planlanıyor*
 
@@ -195,7 +198,7 @@ bağlanır, alt şube erişimi miras kalır.
 |---|---|---|
 | 1 | Haftalık Çalışma Çizelgesi | ✅ Tamamlandı |
 | 2 | Puantaj | ✅ Tamamlandı |
-| 3 | Mesai | 🔜 Planlanıyor |
+| 3 | Mesai | ✅ Tamamlandı |
 | 4 | Merkez Panel (çok şube) | 🔜 Planlanıyor |
 
 Detaylı kararlar ve kurallar için `docs/` klasörüne bakın — özellikle `03_Cizelge_Kurallari.md` (adalet motoru

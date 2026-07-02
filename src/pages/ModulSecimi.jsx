@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext'
 const MODULLER = [
   { key: 'cizelge', ikon: '📅', ad: 'Haftalık Çalışma Çizelgesi', aciklama: 'Vardiya planı, izinler, adil rotasyon', to: '/cizelge', hazir: true },
   { key: 'puantaj', ikon: '🗂️', ad: 'Puantaj Çizelgesi', aciklama: 'Günlük çalışma / izin kaydı', to: '/puantaj', hazir: true },
-  { key: 'mesai', ikon: '⏱️', ad: 'Mesai Çizelgesi', aciklama: 'Fazla çalışma saatleri özeti', to: '/mesai', hazir: false },
+  { key: 'mesai', ikon: '⏱️', ad: 'Mesai Çizelgesi', aciklama: 'Fazla çalışma saatleri özeti', to: '/mesai', hazir: true },
 ]
 
 export default function ModulSecimi() {

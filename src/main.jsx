@@ -8,6 +8,7 @@ import SubeSecimi from './pages/SubeSecimi'
 import CizelgePage from './modules/cizelge/CizelgePage'
 import SubeAyarlari from './modules/cizelge/SubeAyarlari'
 import PuantajPage from './modules/puantaj/PuantajPage'
+import MesaiPage from './modules/mesai/MesaiPage'
 import './index.css'
 
 function Guard({ children }) {
@@ -28,6 +29,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/cizelge/:subeId/ayarlar" element={<Guard><SubeAyarlari /></Guard>} />
           <Route path="/puantaj" element={<Guard><SubeSecimi modul="puantaj" /></Guard>} />
           <Route path="/puantaj/:subeId" element={<Guard><PuantajPage /></Guard>} />
+          <Route path="/mesai" element={<Guard><SubeSecimi modul="mesai" /></Guard>} />
+          <Route path="/mesai/:subeId" element={<Guard><MesaiPage /></Guard>} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
